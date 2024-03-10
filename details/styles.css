@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.container {
+    height: 800px;
+    width: 1900px;
+    border: 2px solid purple;
+    border-radius: 5px 5px 5px 5px;
+    color: blue;
+    background-color: aqua;
+}

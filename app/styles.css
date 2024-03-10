@@ -1,0 +1,84 @@
+body, html {
+    overflow: hidden;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 1;
+}
+
+.nav {
+    display: block;
+    border: none;
+    width:100%;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    background-color: #ffff;
+}
+
+.card {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    color: black;
+}
+
+.qrcode {
+    height: 80px;
+    width: 80px;
+    color: black;
+    background-color: black;
+}
+
+.os-container {
+    margin: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.os {
+    flex-direction: row;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    width: 180px;
+    color: white;
+    background-color: black;
+    border: 2px solid purple;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+h2 {
+    position: relative;
+}
+
+span {
+    position: relative;
+}
+
+.qrcode {
+    height: 200px;
+    width: 200px;
+}

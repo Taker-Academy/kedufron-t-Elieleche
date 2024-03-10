@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+    user-select: none;
 }
 
 header {
@@ -25,6 +29,7 @@ header {
 }
 
 .navbar {
+  position: fixed;
   margin-top: 30px;
   flex-direction: row;
   align-items: center;
@@ -173,5 +178,17 @@ ul li:hover ul li a {
   }
   100% {
     top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .logo-container {
+    align-items: center;
+  }
+  .logo-text {
+
   }
 }
